@@ -39,6 +39,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'foreman', '~> 0.82.0'
 gem 'active_model_serializers'
 gem 'jquery-rails'
+gem 'rest-client', '~> 1.8'
+gem 'dotenv-rails'
+gem 'pry'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
